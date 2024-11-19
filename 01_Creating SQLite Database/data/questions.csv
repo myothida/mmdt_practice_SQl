@@ -1,29 +1,29 @@
-,question,Short_Col_Names
-0,Timestamp,Time
-1,Email Address,Email-01
-2,Email,Email-02
-3,Name,Name
-4,Selected,Selected
-5,Reasons ,Reasons
-6,Birth-date (you must be at least 16 years old to apply),BOD
-7,City of residence,City
-8,Current residing state/region,State_Region
-9,Country of residence,Country
-10,"If you're no longer living in Myanmar, when did you depart from Myanmar? If you are still in Myanmar, Enter 01/01/2030.",Date_Leave_Country
-11,Gender ,Gender
-12,How would you describe your current situation? Please check ALL that apply. ,Current_Situation
-13,What type of Internet will you use to access the training?  ,Type_of_Internet
-14,What device(s) will you use to learn the course? ,Device_used
-15,Current School Name( or last school attended),School_Name
-16,Where are you in your academic career?,Academic_career
-17,"Contact Number. Please provide a number that can be contacted through Viber, telegram, or signal.",Contact
-18,"On a scale of 0-5, how much do you know about data science, analysis, engineering, AI, and/or machine learning?  ",Pre_Knowledge_Data
-19,Course you wish to join.,Course_Wish_Join
-20,How much time will you dedicate to learning online regularly? (In addition to the Zoom Session with the Professor) ,Dedicate_Learning_Time
-21,What personal and professional goals do you hope to achieve by the end of this program?  How will free access to this course help you accomplish your personal and professional goals?  ,Personal_Professional_Goals
-22,Why are you the right person to receive this scholarship?,Reason_Right_Person
-23,Please describe a personal or professional challenge you have faced and how you overcame it. ,Personal_Professional_Challenges
-24,Is there anything else we should know about you?,Others
-25,"After completing training, are you willing and able to fill out and submit this survey about your experience?",Agree_Survey
-26,Enter Last 4 Digits of Your National ID,National_ID
-27,Declaration: ,Declaration
+question,Short_Col_Names
+Timestamp,Time
+Email Address,Email-01
+Email,Email-02
+Name,Name
+Selected,Selected
+Reasons ,Reasons
+Birth-date (you must be at least 16 years old to apply),BOD
+City of residence,City
+Current residing state/region,State_Region
+Country of residence,Country
+"If you're no longer living in Myanmar, when did you depart from Myanmar? If you are still in Myanmar, Enter 01/01/2030.",Date_Leave_Country
+Gender ,Gender
+How would you describe your current situation? Please check ALL that apply. ,Current_Situation
+What type of Internet will you use to access the training?  ,Type_of_Internet
+What device(s) will you use to learn the course? ,Device_used
+Current School Name( or last school attended),School_Name
+Where are you in your academic career?,Academic_career
+"Contact Number. Please provide a number that can be contacted through Viber, telegram, or signal.",Contact
+"On a scale of 0-5, how much do you know about data science, analysis, engineering, AI, and/or machine learning?  ",Pre_Knowledge_Data
+Course you wish to join.,Course_Wish_Join
+How much time will you dedicate to learning online regularly? (In addition to the Zoom Session with the Professor) ,Dedicate_Learning_Time
+What personal and professional goals do you hope to achieve by the end of this program?  How will free access to this course help you accomplish your personal and professional goals?  ,Personal_Professional_Goals
+Why are you the right person to receive this scholarship?,Reason_Right_Person
+Please describe a personal or professional challenge you have faced and how you overcame it. ,Personal_Professional_Challenges
+Is there anything else we should know about you?,Others
+"After completing training, are you willing and able to fill out and submit this survey about your experience?",Agree_Survey
+Enter Last 4 Digits of Your National ID,National_ID
+Declaration: ,Declaration
