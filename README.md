@@ -16,9 +16,11 @@ These tutorials emphasize **SQL querying and analysis** rather than **database d
 1. **Tutorial 1**: Exploring Table Information
 2. **Tutorial 2**: Retrieving Data
 3. **Tutorial 3**: Handling Missing Data
-4. **Tutorial 4**: Handling Data Type
-5. **Tutorial 5**: Aggregating Data 
-6. **Tutorial 6**: Joining Tables
+4. **Tutorial 4**: Joining Tables, INNER JOIN, LEFT JOIN, SELF JOIN
+5. **Tutorial 5**: Advance Query with Case and Sub-query 
+6. **Tutorial 6**: Working with Dates and Timestamps
+7. **Tutorial 7**: Working with Categorical and Unstructred Data
+7. **Tutorial 8**: Windows Functions
 
 **Note**: The most efficient way to master SQL is to keep practicing through extensive hands-on exercises.
 
