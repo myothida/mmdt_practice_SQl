@@ -54,6 +54,7 @@ class MMDTApplicationProcessor:
         Handles dropouts by replacing participants and generates the final selected list.
         """
         df_current = pd.read_csv(self.participants_file)
+        
 
         # Identify dropouts
         drop_out_stu_list = df_current[~df_current['In Place of'].isna()][
@@ -78,5 +79,10 @@ class MMDTApplicationProcessor:
         df_selected = df_selected.drop(columns = ['Name'], axis = 1)
         # Save final selected list
         df_selected.to_csv(f"{self.output_dir}/mmdt_selected_batch01.csv", index=False)
+
+        df_status = df_current[['PARTICIPANT ID', 'Status']]
+        df_status.to_csv(f"{self.output_dir}/mmdt_current_batch01.csv", index=False)
+
+        return df_replace
 
 

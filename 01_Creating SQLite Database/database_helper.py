@@ -45,9 +45,9 @@ class DatabaseHelper:
         :return: None
         """
         if csv_file_paths is None:
-            csv_file_paths = {
-                'applications': './data/mmdt_applications_batch01.csv',
-                'participants': './data/DC_MMDT_Participants_Batch01.csv'
+            csv_files = {
+            'participants': './data/mmdt_selected_batch01.csv',
+            'status': './data/mmdt_current_batch01.csv'
             }
 
         if self.delete_existing_db():
