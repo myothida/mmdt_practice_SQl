@@ -81,6 +81,7 @@ class MMDTApplicationProcessor:
         df_selected.to_csv(f"{self.output_dir}/mmdt_selected_batch01.csv", index=False)
 
         df_status = df_current[['PARTICIPANT ID', 'Status']]
+        df_status.columns = ['PARTICIPANT_ID', 'Status']
         df_status.to_csv(f"{self.output_dir}/mmdt_current_batch01.csv", index=False)
 
         return df_replace
