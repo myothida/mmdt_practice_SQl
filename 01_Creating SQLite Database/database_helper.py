@@ -50,7 +50,19 @@ class DatabaseHelper:
             'status': './data/mmdt_current_batch01.csv'
             }
 
-        if self.delete_existing_db():
+        if os.path.exists(self.db_path):                
+            if self.delete_existing_db():
+                conn = sqlite3.connect(self.db_path)
+                cursor = conn.cursor()
+                
+                for table, csv_file_path in csv_file_paths.items():
+                    df = pd.read_csv(csv_file_path)
+                    df.to_sql(table, conn, if_exists='replace', index=False) #This create the schema for you. 
+                    print(f"Table '{table}' created and data inserted successfully.")
+
+                conn.commit()
+                conn.close()
+        else:
             conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
             
