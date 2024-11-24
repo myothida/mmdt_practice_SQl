@@ -21,6 +21,8 @@ These tutorials emphasize **SQL querying and analysis** rather than **database d
 6. **Tutorial 6**: Working with Dates and Timestamps
 7. **Tutorial 7**: Working with Categorical and Unstructred Data
 7. **Tutorial 8**: Windows Functions
+8. **Project 01**: Sample Project for DATA Camp SQL Associate Ceritificate
+9. **Project 02**: Sample Project for DATA Camp SQL Associate Ceritificate
 
 **Note**: The most efficient way to master SQL is to keep practicing through extensive hands-on exercises.
 
