@@ -47,7 +47,8 @@ class DatabaseHelper:
         if csv_file_paths is None:
             csv_files = {
             'participants': './data/mmdt_selected_batch01.csv',
-            'status': './data/mmdt_current_batch01.csv'
+            'status': './data/mmdt_current_batch01.csv',
+            'attendance': './data/mmdt_phase2_attendance.csv'
             }
 
         if os.path.exists(self.db_path):                
