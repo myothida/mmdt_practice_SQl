@@ -2,7 +2,7 @@
 
 SQLite is a lightweight, serverless, and self-contained SQL database engine that is easy to use and requires minimal setup. This guide will walk you through the installation process of SQLite on various platforms and how to get started using SQLite in your projects.
 
-## Table of Contents
+#### Table of Contents
 - [Installing SQLite on Linux](#installing-sqlite-on-linux)
 - [Installing SQLite on macOS](#installing-sqlite-on-macos)
 - [Installing SQLite on Windows](#installing-sqlite-on-windows)
@@ -11,7 +11,7 @@ SQLite is a lightweight, serverless, and self-contained SQL database engine that
 
 ---
 
-## Installing SQLite on Linux
+#### Installing SQLite on Linux
 
 To install SQLite on a Linux-based system (Debian/Ubuntu), use the following commands:
 
@@ -32,7 +32,7 @@ To install SQLite on a Linux-based system (Debian/Ubuntu), use the following com
     ```
 ---
 
-## Installing SQLite on macOS
+#### Installing SQLite on macOS
 
 On macOS, the easiest way to install SQLite is through **Homebrew**:
 
@@ -49,7 +49,7 @@ On macOS, the easiest way to install SQLite is through **Homebrew**:
     ```
 ---
 
-## Installing SQLite on Windows
+#### Installing SQLite on Windows
 
 To install SQLite on Windows:
 
@@ -65,7 +65,7 @@ To install SQLite on Windows:
 
 ---
 
-## Verifying SQLite Installation
+#### Verifying SQLite Installation
 
 To verify that SQLite is installed correctly, open a terminal or command prompt and run:
 
